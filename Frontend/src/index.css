@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  background: #eee;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&family=Work+Sans:wght@300;400&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-link a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+}
+.nav-link a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar {
+  box-shadow: 1px 2px 3px #666;
+}
+
+.navbar-brand {
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  /* margin-bottom: 3px; */
+}
+.navbar-nav {
+  align-items: center;
+}
+.collapse {
+  letter-spacing: 1.2px;
+
+  font-size: 1em;
+}
+.chart-card {
+  margin: 100px 6% 50px;
+}
+.search-card {
+  margin: auto 15% 40px;
+  /* margin-right: none; */
+}
+.stat-card {
+  /* margin-left: none; */
+
+  border-left: 1px solid;
+}
+.input-group {
+  margin: auto;
+}
+.stat.card-body .row div:nth-child(2) {
+  text-align: right;
+}
+.stat.card-body .row {
+  font-size: 1.1em;
+  padding: 3px;
+  /* border-bottom: 1px solid; */
+}
+.selected-item {
+  background-color: lightblue;
+}
+.fetching {
+  font-size: 30px;
+  font-weight: 500;
+  /* margin-top: 100px; */
+  text-align: center;
+}
+.toast {
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+}
+.watchlist-flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* gap: 20px; */
+  /* margin-bottom: 20px; */
+}
+table {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s;
+}
+.news-card-body {
+  max-height: 200px;
+  overflow: hidden;
+}
+.news-card-body .card-text {
+  text-overflow: ellipsis;
+}
+.card-image {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.watchlist-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.watchlist-header div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.news-card {
+  /* width: 100px; */
+  height: 200px;
+  margin: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

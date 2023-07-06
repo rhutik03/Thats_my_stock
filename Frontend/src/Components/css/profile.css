@@ -1,0 +1,24 @@
+.profile-button {
+  padding: 0;
+  background: none;
+  border: none;
+  margin-left: 15px;
+}
+.profile-button:focus {
+  outline: none;
+  border: none;
+}
+.profile-button:hover {
+  background: none;
+}
+.popover-body {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.popover-body button {
+  padding: 0.3em 0.5em;
+}
+#popover-positioned-bottom {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
